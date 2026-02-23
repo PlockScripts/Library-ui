@@ -1455,10 +1455,10 @@ function redzlib:MakeWindow(Configs)
 		AutomaticSize = "XY",
 		Text = WTitle,
 		TextXAlignment = "Left",
-		TextSize = 14,
+		TextSize = 13,
 		TextColor3 = Theme["Color Text"],
 		BackgroundTransparency = 1,
-		Font = Enum.Font.SourceSansSemibold,
+		Font = Enum.Font.GothamBold,
 		Name = "Title"
 	}, {
 		InsertTheme(Create("TextLabel", {
